@@ -47,8 +47,7 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
     setImdbId('');
 
     // Increase the count
-    console.log('Submitted', data);
-    setCount(count => count + 1);
+    setCount(count + 1);
   }
 
   return (
